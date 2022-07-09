@@ -21,6 +21,7 @@ body {
   background-color: hsl(0deg, 0%, 100%);
   padding: 15px;
   border-radius: 15px;
+  margin: 15px;
 }
 .qr__image {
   border-radius: 15px;

@@ -2,7 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
   font-family: Outfit;
+  font-size: 15px;
 }
 
 .qr__container {
@@ -25,12 +29,21 @@
 }
 .qr__details-container {
   color: hsl(220deg, 15%, 55%);
+  font-weight: 400;
 }
 .qr__title-container {
   color: hsl(218deg, 44%, 22%);
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 .qr__details, .qr__title {
   text-align: center;
+}
+.qr__title {
+  font-size: 18px;
+}
+.qr__text-container {
+  padding: 15px;
 }
 
 .attribution {

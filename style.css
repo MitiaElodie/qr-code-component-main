@@ -1,3 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Outfit;
+}
+
+.qr__container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(212deg, 45%, 89%);
+}
+.qr__card-container {
+  width: 300px;
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 15px;
+  border-radius: 15px;
+}
+.qr__image {
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+}
+.qr__details-container {
+  color: hsl(220deg, 15%, 55%);
+}
+.qr__title-container {
+  color: hsl(218deg, 44%, 22%);
+}
+.qr__details, .qr__title {
+  text-align: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;

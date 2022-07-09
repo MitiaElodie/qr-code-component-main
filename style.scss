@@ -1,2 +1,53 @@
+$white: hsl(0, 0%, 100%);
+$light-grey: hsl(212, 45%, 89%);
+$greyish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+$card-width: 300px;
+$border-radius: 15px;
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+   font-family: Outfit;
+}
+
+.qr {
+   &__container {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $light-grey;
+   }
+
+   &__card-container {
+      width: $card-width;
+      background-color: $white;
+      padding: 15px;
+      border-radius: $border-radius;
+   }
+
+   &__image {
+      border-radius: $border-radius;
+      height: 100%;
+      width: 100%;
+   }
+
+   &__details-container {
+      color: $greyish-blue;
+   }
+
+   &__title-container {
+      color: $dark-blue;
+   }
+
+   &__details,
+   &__title {
+      text-align: center;
+   }
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
